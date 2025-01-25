@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-div {
+  display: flex;
+  padding: 100px 300px;
+  background-image: linear-gradient(to right, #081c36, #0bad8c);
+}
+
+span {
+  display: block;
+}
+
+.left-div {
+  color: #fff;
+  margin: 20px;
+}
+
+.left-heading {
+  font-size: 2.5rem;
+}
+
+.left-para {
+  margin-top: 20px;
+  width: 50%;
+  line-height: 25px;
+  color: rgb(164, 162, 162);
+}
+
+.right-div {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 35%;
+}
+
+.right-para {
+  color: rgb(119, 118, 118);
+}
+
+.btn {
+  cursor: pointer;
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: rgb(148, 108, 223);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(149, 102, 215);
+}
+
+@media (max-width: 1768px) {
+  .bg-div {
+    background-image: linear-gradient(to right, #081c36, #0bad8c);
+  }
+}
+
+@media (max-width: 1750px) {
+  .bg-div {
+    background-image: linear-gradient(to right, #081c36, #0bad8c);
+    padding: 100px 300px;
+  }
+
+  .right-div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1649px) {
+  .bg-div {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #081c36, #0bad8c);
+    padding: 100px 500px;
+  }
+
+  .left-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-heading {
+    text-align: center;
+  }
+
+  .left-para {
+    text-align: center;
+  }
+
+  .right-div {
+    width: 70%;
+    margin-left: 100px;
+  }
+}
